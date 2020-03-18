@@ -60,7 +60,18 @@ html{
     .swiper-slide a img:hover {
     opacity: 0.6;
     }
-  
+    .pr{
+      text-align: left;
+      margin-left: 3px;
+      h3{
+        font-weight: bold;
+        font-size: 23px;
+        margin-bottom: 6px;
+      }
+      p{
+        margin-bottom: 4px;
+      }
+    }
       
     .profile {
       width: 600px;
@@ -70,7 +81,7 @@ html{
         font-weight: bold;
       }
     }
-  
+    
     .flex {
     display: flex;
     }
@@ -203,7 +214,6 @@ html{
 
     .slick-dots{
       display: inline-flex;
-      margin-top: 30px;
       button{
         height: 50px;
         width: 50px;
